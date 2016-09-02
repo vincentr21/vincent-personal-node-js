@@ -1,0 +1,32 @@
+	<script>
+	//this is for highlighting the current nav button
+    $(document).ready(function() {
+        $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
+    });
+	</script>
+	
+	<div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="nav nav-justified nav-pills">
+              <li>
+                <a href="/blast-past">Blast from the Past</a>
+              </li>
+              <li>
+                <a href="/showcase">Showcase</a>
+              </li>
+              <li >
+                <a href="/">About Me</a>
+              </li>
+              <li>
+                <a href="/about-website">About Website</a>
+              </li>
+              <li>
+                <a href="/projects">Future Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+	  </div>
+	</div>
